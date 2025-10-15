@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hornea Tus Ideas | Pasabocas Artesanales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f0e1;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #b8860b, #d4af37, #8b6b2e);
+      color: #111;
+      padding: 30px 20px;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8em;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+      animation: fadeInDown 1.5s ease;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: radial-gradient(circle at top, #1a1a1a, #000);
+      animation: fadeIn 2s ease;
+    }
+
+    .hero img {
+      width: 260px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.5);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .hero img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(212, 175, 55, 0.8);
+    }
+
+    .hero p {
+      margin-top: 25px;
+      font-size: 1.2em;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #e6d5b8;
+      line-height: 1.8em;
+    }
+
+    /* Sección Misión y Visión */
+    .mision-vision {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 70px 20px;
+      background: #111;
+      border-top: 2px solid #8b6b2e;
+      border-bottom: 2px solid #8b6b2e;
+      animation: fadeIn 2s ease;
+    }
+
+    .mision, .vision {
+      background-color: #0f0f0f;
+      border: 1px solid #8b6b2e;
+      border-radius: 14px;
+      max-width: 520px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(139, 107, 46, 0.4);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .mision:hover, .vision:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 35px rgba(212, 175, 55, 0.8);
+    }
+
+    .mision h2, .vision h2 {
+      color: #d4af37;
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .mision p, .vision p {
+      font-size: 1.05em;
+      line-height: 1.8em;
+      color: #e6d5b8;
+      text-align: justify;
+    }
+
+    /* Sección Productos */
+    .productos {
+      text-align: center;
+      padding: 70px 20px;
+      background: #1a1a1a;
+      animation: fadeIn 2s ease;
+    }
+
+    .productos h2 {
+      font-family: 'Playfair Display', serif;
+      color: #d4af37;
+      font-size: 2.2em;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+
+    .galeria img {
+      width: 320px;
+      border-radius: 12px;
+      border: 2px solid #8b6b2e;
+      box-shadow: 0 0 25px rgba(139, 107, 46, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(212, 175, 55, 0.8);
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(145deg, #1a1a1a, #000);
+      text-align: center;
+      padding: 40px 20px;
+      color: #d4af37;
+      font-size: 1.1em;
+      border-top: 2px solid #8b6b2e;
+      animation: fadeIn 2s ease;
+    }
+
+    footer p {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #d4af37;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #fff8dc;
+      text-shadow: 0 0 8px #d4af37;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    HORNEA TUS IDEAS
+  </header>
+
+  <section class="hero">
+    <img src="Captura de pantalla 2025-10-14 155325.png" alt="Logo Hornea Tus Ideas">
+    <p>El horno es tu herramienta de creación. En <strong>Hornea Tus Ideas</strong> convertimos la pasión por la repostería en experiencias únicas para tus eventos. Calidad, innovación y amor en cada detalle.</p>
+  </section>
+
+  <section class="mision-vision">
+    <div class="mision">
+      <h2>MISIÓN</h2>
+      <p>En Hornea Tus Ideas ofrecemos experiencias gastronómicas únicas a través de pasabocas artesanales personalizados que combinan calidad, creatividad y sabor. Nos enfocamos en satisfacer los gustos y necesidades de cada cliente con productos saludables, estéticamente atractivos y elaborados con pasión. Promovemos una producción responsable y sostenible, utilizando empaques ecológicos, reduciendo desperdicios y apoyando a proveedores locales.</p>
+    </div>
+    <div class="vision">
+      <h2>VISIÓN</h2>
+      <p>En Hornea Tus Ideas aspiramos a consolidarnos como una marca líder para el 2030 en la elaboración de pasabocas artesanales personalizados, reconocida por su calidad, innovación y compromiso con la sostenibilidad. Buscamos expandir nuestra presencia en el mercado gastronómico de Bosa, ofreciendo productos que inspiren experiencias únicas y fortalezcan el valor de lo artesanal, promoviendo el consumo responsable y el trabajo colaborativo con productores locales.</p>
+    </div>
+  </section>
+
+  <section class="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="galeria">
+      <img src="IMG_20250628_075059300_MFNR.jpg" alt="Pasabocas artesanales">
+      <img src="IMG_20250628_075111817_HDR.jpg" alt="Decoración de eventos">
+    </div>
+  </section>
+
+  <footer>
+    <p>Síguenos en nuestras redes:</p>
+    <p>
+      📸 <a href="https://www.instagram.com/horneatusi" target="_blank">Instagram: @horneatusi</a> |
+      👍 <a href="https://www.facebook.com/HorneaTusIdeas" target="_blank">Facebook: Hornea Tus Ideas</a>
+    </p>
+    <p>📧 <a href="mailto:horneatusi@gmail.com">horneatusi@gmail.com</a></p>
+    <p>&copy; 2025 Hornea Tus Ideas | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
+
