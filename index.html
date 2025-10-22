@@ -1,108 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hornea Tus Ideas</title>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #000;
-            color: #f5f5dc;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            text-align: center;
-            background: linear-gradient(135deg, #3b2f2f, #000);
-            color: #d4af37;
-            padding: 3rem 0;
-            font-size: 3rem;
-            letter-spacing: 3px;
-            box-shadow: 0 0 25px #d4af37;
-        }
-        section {
-            padding: 3rem 10%;
-        }
-        .mision-vision {
-            display: flex;
-            justify-content: space-between;
-            text-align: justify;
-            gap: 50px;
-        }
-        .mision-vision div {
-            flex: 1;
-            background-color: #1a1a1a;
-            padding: 2rem;
-            border-radius: 15px;
-            border: 1px solid #d4af37;
-            box-shadow: 0 0 20px #d4af37;
-        }
-        h2 {
-            color: #d4af37;
-            text-align: center;
-            margin-bottom: 1rem;
-        }
-        .galeria {
-            text-align: center;
-            margin-top: 4rem;
-        }
-        .galeria img {
-            width: 30%;
-            margin: 15px;
-            border-radius: 20px;
-            box-shadow: 0 0 20px #d4af37;
-            transition: transform 0.3s ease;
-        }
-        .galeria img:hover {
-            transform: scale(1.05);
-        }
-        footer {
-            text-align: center;
-            background-color: #2c1810;
-            padding: 2rem;
-            color: #d4af37;
-            font-size: 1.1rem;
-            margin-top: 3rem;
-            box-shadow: 0 -5px 20px #d4af37;
-        }
-        footer a {
-            color: #d4af37;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-        footer a:hover {
-            color: #f1e5b9;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hornea tus ideas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #1a1a1a;
+      color: #f5f5dc;
+    }
+
+    header {
+      background: linear-gradient(135deg, #3b2f2f, #d4af37);
+      text-align: center;
+      padding: 30px;
+      border-bottom: 4px solid #a67c52;
+    }
+
+    header img {
+      width: 180px;
+      border-radius: 50%;
+      border: 3px solid #d4af37;
+      background-color: #f5f5dc;
+      padding: 10px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #f5f5dc;
+      margin-top: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .mision-vision {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 60px 10%;
+      background-color: #2b1d0e;
+      color: #f5f5dc;
+      border-top: 2px solid #d4af37;
+      border-bottom: 2px solid #d4af37;
+    }
+
+    .mision, .vision {
+      width: 45%;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+    }
+
+    h2 {
+      text-align: center;
+      color: #d4af37;
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 10px;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      background-color: #1a1a1a;
+      padding: 50px 0;
+    }
+
+    .galeria img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      border: 3px solid #d4af37;
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #2b1d0e;
+      color: #f5f5dc;
+      border-top: 3px solid #d4af37;
+    }
+
+    footer a {
+      color: #d4af37;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <header>HORNEA TUS IDEAS</header>
-           <img src="Captura.png" alt="Logo Hornea Tus Ideas">
+  <header>
+    <img src="Captura de pantalla 2025-10-14 155325.png" alt="Logo Hornea tus ideas">
+    <h1>Hornea tus ideas</h1>
+  </header>
 
-    <section class="mision-vision">
-        <div>
-            <h2>MISIÓN</h2>
-            <p>En Hornea tus ideas ofrecemos experiencias gastronómicas únicas a través de pasapalos artesanales personalizados que combinan calidad, creatividad y sabor. Nos enfocamos en satisfacer los gustos y necesidades de cada cliente con productos saludables, estéticamente atractivos y elaborados con pasión. Promovemos una producción responsable y sostenible, utilizando empaques ecológicos, reduciendo desperdicios y apoyando a proveedores locales.</p>
-        </div>
-        <div>
-            <h2>VISIÓN</h2>
-            <p>En Hornea tus ideas aspiramos a consolidarnos como una marca líder para el 2030 en la elaboración de pasapalos artesanales personalizados, reconocida por su calidad, innovación y compromiso con la sostenibilidad. Buscamos expandir nuestra presencia en el mercado gastronómico de Bosa, ofreciendo productos que inspiren experiencias únicas y fortalezcan el valor de lo artesanal. Se busca ser un referente en creatividad culinaria, destacando por promover el consumo responsable, el respeto por el medio ambiente y el trabajo colaborativo con productores locales.</p>
-        </div>
-    </section>
+  <section class="mision-vision">
+    <div class="mision">
+      <h2>MISIÓN</h2>
+      <p>
+        En Hornea tus ideas ofrecemos experiencias gastronómicas únicas a través de pasapalos artesanales personalizados que combinan calidad, creatividad y sabor. 
+        Nos enfocamos en satisfacer los gustos y necesidades de cada cliente con productos saludables, estéticamente atractivos y elaborados con pasión. 
+        Promovemos una producción responsable y sostenible, utilizando empaques ecológicos, reduciendo desperdicios y apoyando a proveedores locales.
+      </p>
+    </div>
+    <div class="vision">
+      <h2>VISIÓN</h2>
+      <p>
+        En Hornea tus ideas aspiramos a consolidarnos como una marca líder para el 2030 en la elaboración de pasapalos artesanales personalizados, reconocida por su calidad, innovación y compromiso con la sostenibilidad. 
+        Buscamos expandir nuestra presencia en el mercado gastronómico de Bosa, ofreciendo productos que inspiren experiencias únicas y fortalezcan el valor de lo artesanal. 
+        Se busca ser un referente en creatividad culinaria, destacando por promover el consumo responsable, el respeto por el medio ambiente y el trabajo colaborativo con productores locales.
+      </p>
+    </div>
+  </section>
 
-    <section class="galeria">
-        <img src="IMG_20250628_075059300_MFNR.jpg" alt="Puesto de venta Hornea Tus Ideas">
-        <img src="WhatsApp Image 2025-10-21 at 8.16.44 PM.jpeg" alt="Pan artesanal recién horneado">
-    </section>
+  <section class="galeria">
+    <img src="IMG_20250628_075059300_MFNR.jpg" alt="Postres 1">
+    <img src="IMG_20250628_075111817_HDR.jpg" alt="Postres 2">
+    <img src="WhatsApp Image 2025-10-21 at 8.16.44 PM.jpeg" alt="Panadería artesanal">
+  </section>
 
-    <footer>
-        <p>📸 <a href="https://www.instagram.com/horneatusi" target="_blank">Instagram</a> |
-        📘 <a href="https://www.facebook.com/HorneaTusIdeas" target="_blank">Facebook</a> |
-        📧 <a href="mailto:horneatusi@gmail.com">horneatusi@gmail.com</a></p>
-    </footer>
+  <footer>
+    <p>📸 Instagram: <a href="https://instagram.com/horneatusi" target="_blank">@horneatusi</a></p>
+    <p>📘 Facebook: <a href="https://facebook.com/HorneaTusIdeas" target="_blank">Hornea Tus Ideas</a></p>
+    <p>📧 Correo: <a href="mailto:horneatusi@gmail.com">horneatusi@gmail.com</a></p>
+    <p>© 2025 Hornea tus ideas — Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>
-
